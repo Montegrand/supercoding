@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/1_2.css" />
+    <title>Document</title>
+
+    <!-- css - internal 방식 -->
+    <style>
+        .edu_12{background-color:beige;font-size:3rem;width:250px;height:150px;}
+
+        /* 13강 css box model */
+        .edu_13 div{width:100px;height:100px;background-color:aqua;padding:30px;margin:50px;border:1px ridge black;}
+        .edu_13 span{width:100px;height:100px;background-color:violet;}
+    </style>
+</head>
+<body>
+    <div class="edu_11">
+        <form action="">
+            <fieldset>
+                <legend>가입 정보 입력 폼</legend>
+                <h2>이메일로 가입</h2>
+                <div>
+                    <label for="email">이메일</label>
+                    <div><input required type="email" name="" id="email" placeholder="이메일 주소를 입력해주세요." /></div>
+                </div>
+                <div>
+                    <label for="pass">비밀번호</label>
+                    <div><input required type="password" name="" id="pass" placeholder="특수문자 블라블라~~" /></div>
+                </div>
+                <div>
+                    <label for="pass_chk">비밀번호 확인</label>
+                    <div><input required type="password" name="" id="pass_chk" placeholder="비밀번호 확인" /></div>
+                </div>
+                <div>
+                    <label for="name-input">이름</label>
+                    <div><input required type="text" name="" id="name-input" placeholder="이름을 입력해주세요." /></div>
+                </div>
+                <div>
+                    <label for="phone-input">휴대폰 번호</label>
+                    <div><input required type="tel" name="" id="phone-input" placeholder="핸드폰 번호를 입력해주세요." /></div>
+                </div>
+                <div>
+                    <span>
+                        <label for="chk1">여기를 눌러주세요</label>
+                        <input required type="checkbox" name="" id="chk1" />
+                    </span>
+                </div>
+                <div><input type="submit" value="제출" /></div>
+            </fieldset>
+        </form>
+    </div>
+
+    <div class="edu_12">
+        요기
+    </div>
+
+    <div class="edu_13">
+        <div>❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️</div>
+        <div>❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️</div>
+        <span>span</span>
+    </div>
+
+    <div class="edu_14">
+        <div class="flex-box">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <main>
+            <div></div>
+        </main>
+    </div>
+
+    <div class="edu_15">
+        <button type="button" class="btn" id="btn-1">1번 버튼</button>
+        <button type="button" class="btn" id="btn-2">2번 버튼</button>
+        <button type="button" class="btn" id="btn-3">3번 버튼</button>
+        <button type="button" class="btn" id="btn-4">4번 버튼</button>
+        <button type="button" class="btn" id="btn-5">5번 버튼</button>
+    </div>
+</body>
+</html>

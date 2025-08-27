@@ -1,0 +1,4 @@
+@charset "utf-8";
+.icon_wrap{display:inline-block;width:120px;box-sizing:border-box}
+.icon_wrap img{display:block;position:relative;max-width:100%;height:auto}
+.icon_wrap span{display:inline-flex;position:absolute;top:0;right:0;justify-content:center;align-items:center;width:40px;height:40px;border:2px solid #fff;border-radius:50%;box-sizing:border-box;background-color:tomato;color:#fff;font-size:15px;font-weight:lighter}

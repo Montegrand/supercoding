@@ -1,0 +1,8 @@
+@charset "utf-8";
+:root{--main-color:rgba(98,220,147);--sub-color:rgba(100,100,100)}
+
+/* 16강 */
+.edu_16 div{width:100px;height:100px;border:1px solid var(--sub-color);display:flex;justify-content:center;align-items:center;}
+.edu_16 div img{transition:2s ease-in-out;width:20px;}
+.edu_16 div:hover img{width:30px;}
+
