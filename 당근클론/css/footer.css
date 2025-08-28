@@ -1,5 +1,10 @@
 footer{position:fixed;bottom:0;left:0;width:100vw;padding-top:30px;padding-bottom:20px;border-top:1px solid #eaeaea;background-color:#fff}
 .footer-block{display:flex;justify-content:space-evenly;align-items:center}
 .footer-icons{font-size:10px;text-align:center;cursor:pointer}
-.footer-icons__img{width:30px}
+@keyframes icons-둥-둥 {
+form{transform: translateY(0);}
+to{transform: translateY(-10px);}
+}
+.footer-icons__img{width:30px;}
+.footer-icons:hover .footer-icons__img{animation:icons-둥-둥 1s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite alternate}
 .footer-icons__desc{display:block;margin-top:5px}
