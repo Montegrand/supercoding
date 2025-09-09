@@ -27,6 +27,8 @@ const handleSubmitForm = async e => {
         if(data === '200'){
             div.innerText = '회원가입이 완료되었습니다.';
             div.style.color = 'blue';
+            window.alert('회원가입이 완료되었습니다.')
+            window.location.pathname = '/login.html'
         }
     }else{
         div.innerText = '패스워드가 같지 않습니다.';
