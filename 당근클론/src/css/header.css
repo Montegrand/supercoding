@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+/* info-bar */
+.info-bar{display:flex;justify-content:space-between;align-items:center}
+.info-bar .info-bar__icons img{width:30px}
+
+/* menu-bar */
+.menu-bar{display:flex;justify-content:space-between;align-items:center}
+.menu-bar .menu-bar__location{display:flex;justify-content:center;align-items:center;}
+.menu-bar .menu-bar__location span{font-size:19px;font-weight:bolder;}
+.menu-bar .menu-bar__location img{flex:0 0;width:24px;}
+.menu-bar .menu-bar__incons{display:flex;justify-content:center;align-items:center;}
+.menu-bar .menu-bar__incons img{flex:0 0;width:36px;}
