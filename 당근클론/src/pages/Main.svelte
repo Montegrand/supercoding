@@ -1,7 +1,7 @@
 <script>
-    const Time = new Date();
-    let hour = Time.getHours();
-    let min = Time.getMinutes();
+  const Time = new Date();
+  let hour = Time.getHours();
+  let min = Time.getMinutes();
 </script>
 
 <div class="media-info-msg">화면 사이즈를 줄여주세요.</div>
@@ -103,5 +103,7 @@
 </footer>
 
 <style>
-.info-bar__time{color:blue}
+  .info-bar__time {
+    color: blue;
+  }
 </style>
